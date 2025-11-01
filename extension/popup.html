@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malicious Detector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🔍 Malicious Detection</h2>
+  <input id="userInput" type="text" placeholder="Enter URL or email..." />
+  <div>
+    <label><input type="radio" name="checkType" value="url" checked> URL</label>
+    <label><input type="radio" name="checkType" value="email"> Email</label>
+  </div>
+  <button id="checkBtn">Check</button>
+  <p id="result"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
